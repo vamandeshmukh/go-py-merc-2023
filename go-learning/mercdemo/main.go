@@ -1,5 +1,8 @@
 package main
 
+// go install
+// mercdemo
+
 import (
 	"fmt"
 	"mercdemo/benz"
