@@ -1,5 +1,6 @@
 package main
 
+// on module folder on CMD -
 // go install
 // mercdemo
 
