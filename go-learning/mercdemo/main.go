@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"mercdemo/benz"
 	"mercdemo/merc"
 )
 
@@ -13,5 +14,11 @@ func main() {
 
 	sum2 := merc.SubNums(20, 10)
 	fmt.Println((sum2))
+
+	sum3 := benz.DivNums(20, 10)
+	fmt.Println((sum3))
+
+	sum4 := benz.MultiNums(10, 20)
+	fmt.Println((sum4))
 
 }
