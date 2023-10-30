@@ -8,7 +8,7 @@ func main() {
 
 	fmt.Println("main function invoked.")
 	funFunction()
-	addNums()
+	addNums(10)
 	addNums(10)
 	addNums(10, 20)
 	addNums(10, 20, 30)
@@ -21,6 +21,7 @@ func funFunction() {
 
 func addNums(num1 int, num2 int) {
 	fmt.Println(num1 + num2)
+
 }
 
 // // type conversion in Go
