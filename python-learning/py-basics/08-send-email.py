@@ -5,8 +5,8 @@ from email.mime.multipart import MIMEMultipart
 print('start')
 sender_email = 'vamandeshmukh@yahoo.com'
 recipient_email = 'vamandeshmukh@gmail.com'
-subject = 'Asdf'
-body = ';lkj'
+subject = 'Test Mail'
+body = 'Test mail'
 smtp_server = 'smtp.mail.yahoo.com'
 smtp_port = 587
 username = 'vamandeshmukh@yahoo.com'
