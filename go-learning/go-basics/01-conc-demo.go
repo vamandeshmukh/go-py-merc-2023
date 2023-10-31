@@ -18,13 +18,13 @@ func main() {
 func fun1 () {
 	for i := 1; i <= 5; i++ {
 		fmt.Println("fun1", i)
-	} 
-	time.Sleep(1000 * time.Millisecond)
+		time.Sleep(100 * time.Millisecond)
+		} 
 }
 
 func fun2 () {
 	for i := 6; i <= 10; i++ {
 		fmt.Println("fun2", i)
-	} 
-	time.Sleep(1000 * time.Millisecond)
+		time.Sleep(100 * time.Millisecond)
+		} 
 }
