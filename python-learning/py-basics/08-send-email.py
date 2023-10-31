@@ -3,7 +3,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 print('start')
-# Email configuration for Yahoo Mail
 sender_email = 'vamandeshmukh@yahoo.com'
 recipient_email = 'vamandeshmukh@gmail.com'
 subject = 'Subject of the email'
@@ -11,9 +10,9 @@ body = 'This is the email body'
 smtp_server = 'smtp.mail.yahoo.com'
 smtp_port = 587
 username = 'vamandeshmukh@yahoo.com'
-password = 'oocaqsayqkzwkdqj'
-# with open('C://Users//DELL//Documents//pass-word.txt', 'r') as file:
-#     password = file.read()
+password = ''
+with open('C://Users//DELL//Documents//pass-word.txt', 'r') as file:
+    password = file.read()
 
 # Create the email message
 message = MIMEMultipart()
