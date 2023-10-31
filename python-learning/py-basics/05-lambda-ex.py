@@ -17,7 +17,8 @@ myFriends = ['Sonu', 'Monika', 'Pooja', "Anu"]
 print(myFriends)
 print(sorted(myFriends))
 print(sorted(myFriends, key=lambda elem: elem))
-print(filter(lambda elem: elem == 'Anu', myFriends))
+print(sorted(myFriends, key=lambda string: string[-1]))
+print(list(filter(lambda elem: elem == 'Anu', myFriends)))
 
 print('end')
 
