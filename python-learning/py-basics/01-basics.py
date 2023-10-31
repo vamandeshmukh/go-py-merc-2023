@@ -42,21 +42,19 @@
 
 # operators in python 
 
-a = 10
-b = 3
+a = input('enter a:')
+b = input('enter b:')
 
-print(a * b)
-print(a ** b)
-print(a / b)
-print(a // b)
+# print(a ** b)
+# print(a / b)
+# print(a // b)
 
-
-
-
-
-
-
-
+if (a > b):
+    print(a, 'is greater than', b)
+elif(a < b):
+    print(a, 'is less than', b)
+else:
+    print(a, 'is same as', b)
 
 
 
