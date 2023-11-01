@@ -12,7 +12,7 @@ def hello_world():
 
 if __name__ == '__main__':
     print('started')
-    app.run()
+    app.run(host='localhost', port=9999)
 
 print('end')
 
